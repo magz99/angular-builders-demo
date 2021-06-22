@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "command-builder": {
+      "implementation": "./builders/command-builder/index",
+      "schema": "./builders/command-builder/schema.json",
+      "description": "Run a shell command"
+    }
+  }
+}
